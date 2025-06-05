@@ -1,0 +1,25 @@
+{
+	"name": "@loybung/weather-api",
+	"version": "1.0.0",
+	"description": "A lightweight wrapper around [WeatherAPI.com](https://www.weatherapi.com/) that fetches weather data",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"dev": "tsup --watch",
+		"build": "tsup",
+		"prepare": "npm run build"
+	},
+	"keywords": [],
+	"author": "loybung",
+	"license": "MIT",
+	"devDependencies": {
+		"tsup": "^8.5.0",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"axios": "^1.9.0",
+		"axios-retry": "^4.5.0",
+		"lru-cache": "^11.1.0"
+	}
+}
