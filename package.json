@@ -1,7 +1,11 @@
 {
 	"name": "@loybung/weather-api",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A lightweight wrapper around [WeatherAPI.com](https://www.weatherapi.com/) that fetches weather data",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/loybung/weather-api"
+	},
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
